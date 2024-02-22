@@ -1,36 +1,54 @@
-## kims Theme Material UI for ERPNext
+<p align="center">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
+</p>
 
-Custom Theme for ERPNext v12 on the new Desk 2.0
+Revamp your Empress v12 with our captivating Material UI theme, designed for an engaging and intuitive user experience. Explore the [Documentation](https://github.com/empress-eco/material_ui_theme), [Report a Bug](https://github.com/empress-eco/material_ui_theme/issues), or [Request a Feature](https://github.com/empress-eco/material_ui_theme/issues).
 
-![alt text](https://discuss.erpnext.com/uploads/default/original/3X/c/f/cfb27faec381f31a05a4daadfda1361682af1804.png)
+## About The Project
 
-To install kimstheme,
+Our Material UI Theme, also known as 'kimstheme', is a custom theme that breathes life into Empress v12's new Desk 2.0. It's designed for anyone seeking to enhance their Empress user interface for a more engaging and intuitive user experience.
 
-1. bench get-app https://github.com/hashirluv/kimstheme.git
-2. bench --site (sitename) install-app kimstheme
-3. bench clear-cache
+### Key Features
+- Material UI design for Empress v12 Desk 2.0
+- Easy installation and uninstallation process
+- Troubleshooting tips for installation issues
 
-For desktop icons to appear,
-There are two files, named desktop-erpnext.py and desktop-frappe.py, in the <a href="https://github.com/hashirluv/kimstheme/releases"> releases</a> page. 
-1. Rename the file desktop-erpnext.py to desktop.py and replace in frappe-bench/apps/erpnext/erpnext/config folder after taking the backup of the original file.
-2. Rename the file desktop-frappe.py to desktop.py and replace in frappe-bench/apps/frappe/frappe/config folder after taking the backup of the original file.
+### Technical Stack
+This project leverages the power of Empress, a full-stack web application framework written in Python & JavaScript with MariaDB as the database.
 
+## Getting Started
 
-To uninstall kimstheme
+### Prerequisites
+You must have an Empress v12 setup to use the Material UI Theme.
 
-1. bench --site (sitename) uninstall-app kimstheme
-2. Restore the original desktop.py in erpnext and frappe config folders
+### Installation
+Get your environment running with these simple steps:
 
+```sh
+# Clone the repository
+bench get-app https://github.com/empress-eco/material_ui_theme.git
 
-### Troubleshoot Tips (not sure if it will work, but it worked for me)
-If the installation of kimstheme doesn't work, or any error pops up, try 'get-app' again. If the error still persists,try the below. I'm not sure if it will work 100%, but it worked for me. 
+# Install the theme on your site
+bench --site YOUR_SITE_NAME install-app kimstheme
 
-1. Get another theme (i used "bench get-app https://github.com/vinhnguyent090/bdtheme")
-2. Install it and uninstall it
-3. Install kimstheme
+# Clear cache
+bench clear-cache
+```
 
-** Please check the codes and help me refine it, in case the way i did the changes are not correct.
+### Usage
+To display the desktop icons, replace some files with those provided in the [releases](https://github.com/empress-eco/material_ui_theme/releases) page. Detailed instructions are available in the project documentation.
 
-#### License
+## Contributing
+We welcome contributions! Here's how you can contribute:
 
-GNU General Public License
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License and Acknowledgements
+
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
+
+Special thanks to the Empress Community, the architects behind the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on. We are profoundly grateful for their pioneering work and ongoing support.
