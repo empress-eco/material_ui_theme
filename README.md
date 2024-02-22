@@ -1,8 +1,14 @@
-<p align="center">
-  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
-</p>
+<div align="center">
 
-Revamp your Empress v12 with our captivating Material UI theme, designed for an engaging and intuitive user experience. Explore the [Documentation](https://github.com/empress-eco/material_ui_theme), [Report a Bug](https://github.com/empress-eco/material_ui_theme/issues), or [Request a Feature](https://github.com/empress-eco/material_ui_theme/issues).
+<img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" width="80" height="80">
+
+
+Revamp your Empress v12 with our captivating Material UI theme, designed for an engaging and intuitive user experience.
+
+Explore the [Documentation](https://github.com/empress-eco/material_ui_theme), [Report a Bug](https://github.com/empress-eco/material_ui_theme/issues), or [Request a Feature](https://github.com/empress-eco/material_ui_theme/issues).
+
+</div>
+
 
 ## About The Project
 
